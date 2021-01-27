@@ -1,0 +1,5 @@
+<!-- <div>{{ movies$ | async | json }}</div> -->
+<app-result-accordion
+  *ngFor="let movie of movies$ | async"
+  [movie]="movie">
+</app-result-accordion>

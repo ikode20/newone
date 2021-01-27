@@ -1,5 +1,9 @@
 # MovieSearchEngine
 
+This app allows you to fetch movies from The Movie Database API that match the search term..
+
+The user can then click then view an alternative translation via the 'Yoda' button.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
 
 ## Development server

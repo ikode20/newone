@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSearch(search.value, form.valid); form.reset()" #form="ngForm" novalidate>
+  <div class="form-row align-items-center">
+    <div class="col-auto">
+      <input
+        type="text"
+        name="search"
+        class="form-control mb-2"
+        required
+        ngModel
+        #search>
+    </div>
+    <div class="col-auto">
+      <button
+        type="submit"
+        class="btn btn-primary mb-2"
+        [disabled]="form.invalid">
+        Search
+      </button>
+    </div>
+  </div>
+</form>
